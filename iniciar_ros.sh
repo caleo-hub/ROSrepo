@@ -1,0 +1,1 @@
+docker run -ti --rm -v $(pwd):/tdk -v ~/.ssh:/root/.ssh -w /tdk  --name ros ros:noetic-desktop-full 
